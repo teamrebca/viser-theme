@@ -9,6 +9,10 @@
     "gulp-sass": "^4.0.2"
   },
   "scripts": {
-    "start": "gulp"
+    "start": "gulp",
+    "build": "gulp sass"
+  },
+  "dependencies": {
+    "bootstrap": "^4.3.1"
   }
 }

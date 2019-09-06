@@ -1,3 +1,8 @@
-// Hello world
-body {
-}
+// Your Bootstrap overrides
+$primary: red;
+$secondary: lightblue;
+$body-bg: #32A;
+$body-color: #DDD;
+
+// Bootstrap and its default variables
+@import "../node_modules/bootstrap/scss/bootstrap";

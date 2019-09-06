@@ -22,4 +22,4 @@ exports.watchSass = function() {
   gulp.watch("scss/*.scss", gulp.series(['sass']));
 };
 
-exports.default = gulp.parallel([exports.browserSync, exports.watchSass]);
+exports.default = gulp.parallel([exports.sass], [exports.browserSync, exports.watchSass]);
