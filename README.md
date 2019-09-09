@@ -2,7 +2,14 @@
 Bootstrap-based SASS theme for Viser
 
 ## Installation & Usage
-_Under construction_
+0. Ensure your terminal is authenticated with github with an account that is in the `teamrebca` org.  
+1. Install as a dependency with yarn: `yarn add https://github.com/teamrebca/viser-theme.git`  
+2. In a Vue file, you can import it in a SCSS style block  
+```
+<style lang="scss">
+@import "~viser-theme";
+</style>
+```
 
 ## Development
 To develop on this theme locally
