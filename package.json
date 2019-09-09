@@ -1,7 +1,7 @@
 {
-  "name": "viser-theme-test",
+  "name": "viser-theme",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "scss/theme.scss",
   "license": "MIT",
   "devDependencies": {
     "browser-sync": "^2.26.7",
