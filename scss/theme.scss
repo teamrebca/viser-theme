@@ -1,9 +1,5 @@
-// Your Bootstrap overrides
-$primary: #464866;
-$secondary: #666666;
-$info: #2a848a;
-
 // Bootstrap and its default variables
+@import "./variables.scss";
 @import "../node_modules/bootstrap/scss/bootstrap";
 
 *,
@@ -12,12 +8,9 @@ $info: #2a848a;
   box-sizing: border-box; 
 }
 
-// Breakpoints
-@media (min-width: 1024px) {
-    .container {
-        max-width: 1000px;
-    }
-}
+$grid-breakpoints: (
+    lg: 1024px
+);
 
 h1, h2, h3, h4, h5, p, span,
 input, 
