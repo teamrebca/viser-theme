@@ -8,19 +8,6 @@
   box-sizing: border-box; 
 }
 
-$grid-breakpoints: (
-    lg: 1024px
-);
-
-h1, h2, h3, h4, h5, p, span,
-input, 
-input::placeholder,  
-.btn,
-a {
-    font-family: 'Roboto', sans-serif;
-    letter-spacing: .5px;
-}
-
 .btn:not(.btn-link) {
     border-radius: 0;
     box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.24), 0px 0px 2px rgba(0, 0, 0, 0.15);
