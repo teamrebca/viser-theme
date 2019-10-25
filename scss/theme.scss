@@ -1,31 +1,11 @@
-// Your Bootstrap overrides
-$primary: #464866;
-$secondary: #666666;
-$info: #2a848a;
-
 // Bootstrap and its default variables
+@import "./variables.scss";
 @import "../node_modules/bootstrap/scss/bootstrap";
 
 *,
 *::before,
 *::after {
   box-sizing: border-box; 
-}
-
-// Breakpoints
-@media (min-width: 1024px) {
-    .container {
-        max-width: 1000px;
-    }
-}
-
-h1, h2, h3, h4, h5, p, span,
-input, 
-input::placeholder,  
-.btn,
-a {
-    font-family: 'Roboto', sans-serif;
-    letter-spacing: .5px;
 }
 
 .btn:not(.btn-link) {
@@ -35,8 +15,4 @@ a {
 
 .custom-checkbox .custom-control-label::before {
     border-radius: 0;
-}
-
-.form-control {
-    padding: 0;
 }
