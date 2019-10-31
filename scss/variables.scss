@@ -1,4 +1,4 @@
-@import "../node_modules/bootstrap/scss/functions";
+@import "node_modules/bootstrap/scss/functions";
 
 // Bootstrap Color Overrides
 $primary: #464866;
@@ -10,7 +10,12 @@ $theme-green: #2a848a;
 $theme-yellow: #fed19f;
 $theme-cream: #fff0d9;
 $theme-orange: #ff4500;
+$medium: #dee2e6;
+
+$theme-colors: (
+  "medium": $medium
+);
 
 $font-family-sans-serif: 'Roboto', sans-serif;
 
-@import "../node_modules/bootstrap/scss/variables";
+@import "node_modules/bootstrap/scss/variables";
