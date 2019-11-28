@@ -11,6 +11,7 @@
 .btn:not(.btn-link) {
   border-radius: 4px;
   border: 1px solid $theme-grey-light;
+  border: 1px solid red !important;
 }
 
 .custom-checkbox .custom-control-label::before {
