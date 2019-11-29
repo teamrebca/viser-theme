@@ -12,6 +12,10 @@ a:hover {
   text-decoration: none;
 }
 
+.btn-primary {
+  height: 40px;
+}
+
 .btn:not(.btn-link) {
   border-radius: 4px;
   border: 1px solid $theme-grey-light;
