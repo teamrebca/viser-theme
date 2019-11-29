@@ -7146,10 +7146,12 @@ a.text-medium:hover, a.text-medium:focus {
 *::after {
   box-sizing: border-box; }
 
+a:hover {
+  text-decoration: none; }
+
 .btn:not(.btn-link) {
   border-radius: 4px;
-  border: 1px solid #DDDDDD;
-  border: 1px solid red !important; }
+  border: 1px solid #DDDDDD; }
 
 .custom-checkbox .custom-control-label::before {
   border-radius: 4px; }
