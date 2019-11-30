@@ -8,11 +8,11 @@
   box-sizing: border-box; 
 }
 
-.btn:not(.btn-link) {
-    border-radius: 0;
-    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.24), 0px 0px 2px rgba(0, 0, 0, 0.15);
+.btn-link:hover,
+a:hover {
+  text-decoration: none;
 }
 
 .custom-checkbox .custom-control-label::before {
-    border-radius: 0;
+  border-radius: 2px !important;
 }
