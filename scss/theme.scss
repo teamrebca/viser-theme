@@ -10,6 +10,9 @@
 
 .btn-primary {
   color: $white;
+  @include hover {
+    color: $white;
+  }
 }
 
 .btn-link:hover,
