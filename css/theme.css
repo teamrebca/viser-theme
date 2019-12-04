@@ -7147,6 +7147,9 @@ a.text-medium:hover, a.text-medium:focus {
 *::after {
   box-sizing: border-box; }
 
+.btn-primary {
+  color: #fff; }
+
 .btn-link:hover,
 a:hover {
   text-decoration: none; }
