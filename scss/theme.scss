@@ -16,3 +16,14 @@ a:hover {
 .custom-checkbox .custom-control-label::before {
   border-radius: 2px !important;
 }
+
+.text-overline {
+  font-weight: $font-weight-bold;
+  font-size: $font-size-sm;
+  letter-spacing: .04em;
+  text-transform: uppercase;
+}
+
+.text-caption {
+  font-size: $font-size-base * .75;
+}
