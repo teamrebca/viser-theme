@@ -1,22 +1,37 @@
 @import "node_modules/bootstrap/scss/functions";
 
 // Bootstrap Color Overrides
-$primary: #464866;
-$secondary: #666666;
-$theme-blue: #464866;
-$theme-blue-light: #d9efff;
-$theme-grey: #666666;
-$theme-grey-light: #DDDDDD;
-$theme-green: #2a848a;
-$theme-yellow: #fed19f;
-$theme-cream: #fff0d9;
-$theme-orange: #ff4500;
+$primary: #c09639;
+$secondary: #555555;
 $medium: #dee2e6;
+$danger: #f23f3f;
+$danger-dark: #cc0000;
+$success: #00c851;
+$success-dark: #007e33;
+
+$gray-100: #eeeeee;
+$gray-200: #dddddd;
+$gray-300: #cccccc;
+$gray-400: #bbbbbb;
+$gray-500: #aaaaaa;
+$gray-600: #999999;
+$gray-700: #777777;
+$gray-800: #555555;
+$gray-900: #333333;
+$gray-1000: #111111;
+
+$grays: ( "1000": $gray-1000 );
 
 $theme-colors: (
   "medium": $medium
 );
 
+// Fonts
 $font-family-sans-serif: 'Roboto', sans-serif;
+$font-family-serif: 'PT Serif', serif;
+$font-weight-bold: 700;
+$headings-font-family: $font-family-serif;
+$headings-font-weight: $font-weight-bold;
 
 @import "node_modules/bootstrap/scss/variables";
+ 
