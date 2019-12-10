@@ -10,8 +10,16 @@
 
 .btn-primary {
   color: $white;
+}
+
+.btn-primary,
+.btn-outline-primary {
   @include hover {
     color: $white;
+  }
+
+  &:active {
+    color: $white !important;
   }
 }
 
@@ -21,8 +29,10 @@ a:hover {
 }
 
 .custom-checkbox .custom-control-label::before {
-  border-radius: 2px !important;
-}
+  border-radius: .125em !important;
+  border-color: $gray-1000;
+  border-width: .125em;
+ }
 
 .text-overline {
   font-weight: $font-weight-bold;
