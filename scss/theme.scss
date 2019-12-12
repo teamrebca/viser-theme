@@ -41,10 +41,44 @@ a:hover {
   text-transform: uppercase;
 }
 
+.text-overline,
 .text-caption {
   font-size: $font-size-base * .75;
 }
 
 .text-serif {
   font-family: $font-family-serif;
+}
+
+.font-weight-semi-bold {
+  font-weight: 500;
+}
+
+// ImageGallery
+.carousel-control-prev,
+.carousel-control-next {
+  width: 32px;
+  height: 32px;
+  background-color: rgba(0,0,0, .8);
+  border-radius: 4px;
+  top: 50%;
+  transform: translateY(-50%);
+  opacity: 1;
+
+  &:hover {
+    opacity: 1;
+  }
+}
+
+.carousel-control-prev {
+  left: 5%;
+}
+
+.carousel-control-next {
+  right: 5%;
+}
+
+// ShowingDetailView
+.btn-primary:disabled {
+  color: $white;
 }
