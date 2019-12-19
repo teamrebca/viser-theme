@@ -7150,12 +7150,22 @@ a.text-medium:hover, a.text-medium:focus {
 .btn-primary {
   color: #fff; }
 
+.btn-primary:hover,
+.btn-outline-primary:hover {
+  color: #fff; }
+
+.btn-primary:active,
+.btn-outline-primary:active {
+  color: #fff !important; }
+
 .btn-link:hover,
 a:hover {
   text-decoration: none; }
 
 .custom-checkbox .custom-control-label::before {
-  border-radius: 2px !important; }
+  border-radius: .125em !important;
+  border-color: #111111;
+  border-width: .125em; }
 
 .text-overline {
   font-weight: 700;
@@ -7163,5 +7173,34 @@ a:hover {
   letter-spacing: .04em;
   text-transform: uppercase; }
 
+.text-overline,
 .text-caption {
   font-size: 0.75rem; }
+
+.text-serif {
+  font-family: "PT Serif", serif; }
+
+.font-weight-semi-bold {
+  font-weight: 500; }
+
+.carousel-control-prev,
+.carousel-control-next {
+  width: 32px;
+  height: 32px;
+  background-color: rgba(0, 0, 0, 0.8);
+  border-radius: 4px;
+  top: 50%;
+  transform: translateY(-50%);
+  opacity: 1; }
+  .carousel-control-prev:hover,
+  .carousel-control-next:hover {
+    opacity: 1; }
+
+.carousel-control-prev {
+  left: 5%; }
+
+.carousel-control-next {
+  right: 5%; }
+
+.btn-primary:disabled {
+  color: #fff; }
