@@ -28,7 +28,9 @@
 }
 
 .btn-link:hover,
-a:hover {
+.btn-link:focus,
+a:hover,
+a:focus {
   text-decoration: none;
 }
 
