@@ -8,6 +8,7 @@
   box-sizing: border-box; 
 }
 
+
 .btn-primary {
   color: $white;
 }
@@ -52,9 +53,9 @@ a:focus {
   font-size: $font-size-base * .75;
 }
 
-.text-serif {
-  font-family: $font-family-serif;
-}
+// .text-serif {
+//   font-family: $font-family-serif;
+// }
 
 .font-weight-semi-bold {
   font-weight: 500;
