@@ -27,11 +27,12 @@ $theme-colors: (
 );
 
 // Fonts
-$font-family-sans-serif: 'Roboto', sans-serif;
-$font-family-serif: 'PT Serif', serif;
+$font-family-sans-serif: 'Lato', sans-serif;
 $font-weight-bold: 700;
-$headings-font-family: $font-family-serif;
 $headings-font-weight: $font-weight-bold;
+// $font-family-sans-serif: 'Roboto', sans-serif;
+// $font-family-serif: 'PT Serif', serif;
+// $headings-font-family: $font-family-serif;
 
 @import "node_modules/bootstrap/scss/variables";
  
